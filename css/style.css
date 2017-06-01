@@ -1,0 +1,168 @@
+.container-fluid{
+  font-family: 'Roboto', sans-serif;
+}
+
+#no-margin-navbar{
+  margin: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+}
+
+.presentation{
+  background: url(../imgs/bg2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contact_me{
+  background: url(../imgs/bg1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#text1{
+  padding: 100px;
+  text-align: center;
+  text-shadow: 2px 0px 13px rgba(150, 150, 150, 1);
+  color: black;
+}
+
+#name{
+  font-size: 100px;
+}
+
+#proff{
+  font-size: 50px;
+}
+
+#img-usr{
+  border-radius: 50%;
+  width: 40%;
+}
+
+.center_img{
+  text-align: center;
+}
+
+.info-class{
+  margin: 60px 0px 40px 0px;
+}
+
+.info-class p{
+  font-size: 20px;
+  text-align: justify;
+}
+
+.info-class a{
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+  font-weight: bold;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  margin: 15px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+
+#fcbk{
+  font-size: 25px;
+  background-color: #3b5998;
+  color: white;
+}
+
+#fcbk:hover {
+  background-color: rgba(175, 189, 212, 0.8);
+}
+
+#github{
+  font-size: 30px;
+  background-color: black;
+  color: white;
+}
+
+#github:hover {
+  background-color: rgba(88, 88, 88, 0.8);
+}
+
+.skills{
+  background-color: #F2F2F2;
+  padding-bottom: 40px;
+}
+
+.skills h1{
+  margin-bottom: 30px;
+}
+
+.skills p, .portfolio p{
+  font-size: 15px;
+}
+
+.portfolio{
+  /*background-color: #2E2EFE;*/
+  background-color: #0B0B61;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.portfolio h1{
+  padding-bottom: 30px;
+}
+
+.contact_me{
+  background-color: #0B0B3B;
+  color: white;
+  padding-bottom: 40px;
+  text-shadow: 2px 0px 13px rgba(150, 150, 150, 1);
+}
+
+.contact_me p{
+  font-size: 16px;
+}
+
+.contact_me .glyphicon{
+  font-size: 30px;
+}
+
+#gly-warning{
+  font-size: -webkit-xxx-large;
+  color: orange;
+}
+
+/* Progress-bar */
+.container_skill {
+    background-color: #ddd; /* Grey background */
+    padding: 0px;
+    border-radius: 5px;
+}
+
+#delete-padding{
+  padding: 0px;
+}
+
+.skill {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 20px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+    border-radius: 5px;
+}
+
+#ruby_rails {width: 50%; background-color: #4CAF50;} /* Green */
+#html5 {width: 70%; background-color: #4CAF50;} /* Green */
+#css3 {width: 70%; background-color: #4CAF50;} /* Green */
+#bootstrap {width: 80%; background-color: #4CAF50;} /* Green */
+#javascript {width: 60%; background-color: #4CAF50;} /* Green */
+#jquery_ajax {width: 60%; background-color: #4CAF50;} /* Green */
+#git_github {width: 60%; background-color: #4CAF50;} /* Green */
+#php {width: 80%; background-color: #4CAF50;} /* Green */
+#sql {width: 70%; background-color: #4CAF50;} /* Green */
