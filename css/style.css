@@ -12,7 +12,15 @@
 }
 
 .presentation{
-  background: url(../imgs/bg2.jpg) no-repeat center center fixed;
+  background: url(../imgs/bg3.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg-skills{
+  background: url(../imgs/bg4.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -97,6 +105,10 @@
 .skills{
   background-color: #F2F2F2;
   padding-bottom: 40px;
+}
+
+.progress-space{
+  padding: 1px;
 }
 
 .skills h1{
