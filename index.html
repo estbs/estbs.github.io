@@ -1,138 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Esteban BS Web CV</title>
-
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    
+
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/style.css"> 
-
+    <title>Esteban BS Web CV</title>
   </head>
   <body>
     <div class="container-fluid">
-      <!-- Menu navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="no-margin-navbar">
-        <a class="navbar-brand" href="#">Esteban</a>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav navbar-right">
-            <a class="nav-item nav-link" href="#info">About me</a>
-            <a class="nav-item nav-link" href="#">Skills</a>
-            <a class="nav-item nav-link" href="#">Portoflio</a>
-            <a class="nav-item nav-link" href="#">Contact me</a>
+       <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Esteban</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="#">Home</a>
+              <a class="nav-item nav-link" href="#">About me</a>
+              <a class="nav-item nav-link" href="#">Skills</a>
+              <a class="nav-item nav-link" href="#">Contact me</a>
+            </div>
           </div>
-        </div>
-      </nav>
-
-      <div class="row justify-content-md-center presentation">
-        <div id="text1">
-          <p id="name">Esteban Buitrago Sánchez</p>
-          <p id="proff">Full Stack Web Developer<br>Electronics Engineer</p>
-        </div>
+        </nav>
       </div>
+    </div>
 
-      <div class="row info-class" id="info">
-        <div class="col-7">
-          <p>I am Electronics engineer and Full Stack web developer from Medellín, Colombia. I like met new technologies and apply that knowledge making new software applications.</p>
-          <p>Professionally I am increasing all days and personally too. I like share with my family and my friends, play soccer, eat and code. Always ready for new challenges!</p>
-        </div>
-        <div class="col-5 center_img">
-          <img id="img-usr" src="imgs/img-user.png">
-        </div>
-      </div>
-
-      <div class="row bg-skills" id="skills">
-        <div class="col-12 col-xs-12 col-md-12">
-          <h1>Skills</h1>
-          <div class="row">
-            <div class="col-4 progress-space">
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-              </div>
-            </div>
-            <div class="col-4 progress-space">
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-              </div>
-            </div>
-            <div class="col-4 progress-space">
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4 progress-space">
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-              </div>
-            </div>
-            <div class="col-4 progress-space">
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-              </div>
-            </div>
-            <div class="col-4 progress-space">
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4 progress-space">
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-              </div>
-            </div>
-            <div class="col-4 progress-space">
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-              </div>
-            </div>
-            <div class="col-4 progress-space">
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row portfolio" id="portfolio">
-        <div class="col-md-12 col-xs-12 text-center">
-          <h1>Portfolio</h1>
-          <div class="glyphicon glyphicon-warning-sign" id="gly-warning"></div>
-          <p><span class="fa fa-refresh fa-spin"></span> Working...</p>
-        </div>
-      </div>
-      <div class="row contact_me" id="contact_me">
-        <h1 class="text-center">Contact me</h1>
-        <p class="text-center">I'm ready for listen and work, call me or send me a message and we will build a good project.</p>
-        <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
-          <div class="col-xs-10 col-md-6 text-center">
-            <div class="glyphicon glyphicon-envelope"></div>
-            <p>estbs93@gmail.com</p>
-          </div>
-          <div class="col-xs-10 col-md-6 text-center">
-            <div class="glyphicon glyphicon-earphone"></div>
-            <p>+57 301-486-0263</p>
-          </div>
-        </div>
-      </div>
-
-    <!-- styles -->
-    <!-- -->
-
+    <!-- JQuery Slim version -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
+    
+    <!-- Popper.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-
+    
+    <!-- Boostrap -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </body>
 </html>
