@@ -2,8 +2,8 @@
   font-family: 'Roboto', sans-serif;
 }
 
-#text1{
-  padding-top: 100px; 
+#text-home{
+  padding-top: 50%; 
   text-align: center;
   color: black;
   text-shadow: 2px 0px 13px rgba(150, 150, 150, 1);  
@@ -17,13 +17,30 @@
   font-size: 30px;
 }
 
-.presentation{
+.home{
   background: url(../imgs/bg3.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
+.center_img{
+  text-align: center;
+}
+
+#text_about_me {
+  padding: 5%;
+  text-align: justify;
+}
+
+#img-usr{
+  border-radius: 50%;
+  width: 60%;
+}
+
+
+
 
 #no-margin-navbar{
   margin: 0px;
@@ -48,15 +65,6 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-#img-usr{
-  border-radius: 50%;
-  width: 40%;
-}
-
-.center_img{
-  text-align: center;
 }
 
 .info-class{
@@ -180,6 +188,11 @@
 #sql {width: 70%; background-color: #4CAF50;} /* Green */
 
 @media (min-width: 320px) {
+
+  #text-home{
+    padding-top: 20%;   
+  }
+
   #name{
     font-size: 35px;
   }
@@ -187,6 +200,7 @@
   #proff{
     font-size: 30px;
   }
+
 }
 
 @media (min-width: 480px) {
@@ -197,9 +211,19 @@
   #proff{
     font-size: 35px;
   }
+
+  #img-usr{
+    margin-top: 25%;
+    width: 70%;
+  }
 }
 
 @media (min-width: 768px) {
+
+  #text-home{
+    padding-top: 20%;   
+  }
+
   #name{
     font-size: 65px;
   }
@@ -207,14 +231,29 @@
   #proff{
     font-size: 45px;
   }
+
+  #img-usr{
+    width: 60%;
+    margin-top: 10%;
+  }
 }
 
 @media (min-width: 960px) {
+
+  #text-home{
+    padding-top: 10%;   
+  }
+
   #name{
     font-size: 75px;
   }
 
   #proff{
     font-size: 55px;
+  }
+
+  #img-usr{
+    width: 60%;
+    margin-top: 10%;
   }
 }
