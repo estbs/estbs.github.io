@@ -14,23 +14,23 @@
   </head>
   <body>
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark fixed-top navbar_custom">
         <a class="navbar-brand" href="#">Esteban</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#">Home</a>
-            <a class="nav-item nav-link" href="#">About me</a>
-            <a class="nav-item nav-link" href="#">Skills</a>
+            <a class="nav-item nav-link" href="#home">Home</a>
+            <a class="nav-item nav-link" href="#about_me">About me</a>
+            <a class="nav-item nav-link" href="#skills">Skills</a>
             <a class="nav-item nav-link" href="#">Contact me</a>
           </div>
         </div>
       </nav>
 
       <!-- home -->
-      <div class="row justify-content-center home">
+      <div id="home" class="row justify-content-center home">
         <div id="text-home">
           <p id="name">Esteban Buitrago Sánchez</p>
           <p id="proff">Full Stack Web Developer<br>Electronics Engineer</p>
@@ -38,8 +38,9 @@
       </div>
 
       <!-- About me -->
-      <div class="row">
+      <div id="about_me" class="row row_custom">
         <div id="text_about_me" class="col-12 col-sm-8 col-lg-7">
+          <h2>Information</h2>
           <p>I am Electronics engineer and Full Stack web developer from Medellín, Colombia. I like met new technologies and apply that knowledge making new software applications.</p>
           <p>Professionally I am increasing all days and personally too. I like share with my family and my friends, play soccer, eat and code. Always ready for new challenges!</p>
         </div>
@@ -49,8 +50,106 @@
       </div>
 
       <!-- Skills -->
-      <div class="row">
-        
+      <div id="skills" class="row justify-content-sm-center row_custom bg-skills">
+        <div class="col-12 skills_title">
+          <h2>Skills</h2>
+        </div>
+        <div class="col-12 col-sm-5 col-lg-4 progress-space">
+          <a class="btn a_collapse_area_custom" data-toggle="collapse" href="#javaKnowledgeSpecifications" role="button" aria-expanded="false" aria-controls="javaKnowledgeSpecifications">
+            <div class="progress progress_custom">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%">Java</div>
+            </div>
+          </a>
+          <div class="collapse" id="javaKnowledgeSpecifications">
+            <div class="card card-body">
+              Spring framework, Spring boot, Spring Cloud with microservices.
+            </div>
+          </div>
+        </div>
+        <div class="col-12 offset-sm-1 col-sm-5 col-lg-4 progress-space">
+          <a class="btn a_collapse_area_custom" data-toggle="collapse" href="#cKnowledgeSpecifications" role="button" aria-expanded="false" aria-controls="cKnowledgeSpecifications">
+            <div class="progress progress_custom">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">C/C++</div>
+            </div>
+          </a>
+          <div class="collapse" id="cKnowledgeSpecifications">
+            <div class="card card-body">
+              QT Creator, QML.
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-5 col-lg-4 progress-space">
+          <a class="btn a_collapse_area_custom" data-toggle="collapse" href="#rubyKnowledgeSpecifications" role="button" aria-expanded="false" aria-controls="rubyKnowledgeSpecifications">
+            <div class="progress progress_custom">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%">Ruby</div>
+            </div>
+          </a>
+          <div class="collapse" id="rubyKnowledgeSpecifications">
+            <div class="card card-body">
+              Ruby on Rails, Sinatra.
+            </div>
+          </div>
+        </div>
+        <div class="col-12 offset-sm-1 col-sm-5 col-lg-4 progress-space">
+          <a class="btn a_collapse_area_custom" data-toggle="collapse" href="#phpKnowledgeSpecifications" role="button" aria-expanded="false" aria-controls="phpKnowledgeSpecifications">
+            <div class="progress progress_custom">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%">Php</div>
+            </div>
+          </a>
+          <div class="collapse" id="phpKnowledgeSpecifications">
+            <div class="card card-body">
+              Without framework.
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-5 col-lg-4 progress-space">
+          <a class="btn a_collapse_area_custom" data-toggle="collapse" href="#jsKnowledgeSpecifications" role="button" aria-expanded="false" aria-controls="jsKnowledgeSpecifications">
+            <div class="progress progress_custom">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">JavaScript</div>
+            </div>
+          </a>
+          <div class="collapse" id="jsKnowledgeSpecifications">
+            <div class="card card-body">
+              Include HTML5, CSS3. AngularJs.
+            </div>
+          </div>
+        </div>
+        <div class="col-12 offset-sm-1 col-sm-5 col-lg-4 progress-space">
+          <a class="btn a_collapse_area_custom" data-toggle="collapse" href="#sqlKnowledgeSpecifications" role="button" aria-expanded="false" aria-controls="sqlKnowledgeSpecifications">
+            <div class="progress progress_custom">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">SQL/No SQL</div>
+            </div>
+          </a>
+          <div class="collapse" id="sqlKnowledgeSpecifications">
+            <div class="card card-body">
+              SQL Server, MySQL, Postgress. MongoDB.
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-5 col-lg-4 progress-space">
+          <a class="btn a_collapse_area_custom" data-toggle="collapse" href="#dockerKnowledgeSpecifications" role="button" aria-expanded="false" aria-controls="dockerKnowledgeSpecifications">
+            <div class="progress progress_custom">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%">Docker</div>
+            </div>
+          </a>
+          <div class="collapse" id="dockerKnowledgeSpecifications">
+            <div class="card card-body">
+              Docker, Docker Compose.
+            </div>
+          </div>
+        </div>
+        <div class="col-12 offset-sm-1 col-sm-5 col-lg-4 progress-space">
+          <a class="btn a_collapse_area_custom" data-toggle="collapse" href="#rabbitKnowledgeSpecifications" role="button" aria-expanded="false" aria-controls="rabbitKnowledgeSpecifications">
+            <div class="progress progress_custom">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%">RabbitMQ</div>
+            </div>
+          </a>
+          <div class="collapse" id="rabbitKnowledgeSpecifications">
+            <div class="card card-body">
+              RabbitMQ.
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
