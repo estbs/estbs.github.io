@@ -2,21 +2,85 @@
   font-family: 'Roboto', sans-serif;
 }
 
-#no-margin-navbar{
-  margin: 0px;
-  position: fixed;
-  width: 100%;
-  z-index: 2;
+.navbar_custom{
   background: rgba(0, 0, 0, 0.7);
   font-weight: bold;
+  border-color: #e7e7e7;
 }
 
-.presentation{
-  background: url(../imgs/bg2.jpg) no-repeat center center fixed;
+.navbar_text_color {
+  color: white;
+}
+
+.navbar_toggler_custom {
+  border-color: rgb(255,255,255);
+}
+
+.navbar_toggler_icon_custom {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#text-home{
+  padding-top: 50%; 
+  text-align: center;
+  color: black;
+  text-shadow: 2px 0px 13px rgba(150, 150, 150, 1);  
+}
+
+#name{
+  font-size: 40px;
+}
+
+#proff{
+  font-size: 30px;
+}
+
+.home{
+  background: url(../imgs/bg3.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.center_img{
+  text-align: center;
+}
+
+.row_custom {
+  padding: 1% 5% 1% 5%;
+}
+
+#text_about_me {
+  text-align: justify;
+}
+
+#img-usr{
+  border-radius: 50%;
+  width: 60%;
+}
+
+.progress-space{
+  padding: 1px;
+}
+
+.skills_title {
+  text-align: center;
+}
+
+.a_collapse_area_custom {
+  width: 100%;
+  padding: 0;
+}
+
+.progress_custom {
+  border-style: solid;
+  border-width: 1px;
+  height: 100%;
+}
+
+.bg-skills {
+  background-color: #F2F2F2;
 }
 
 .contact_me{
@@ -25,63 +89,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-#text1{
-  padding: 100px;
-  text-align: center;
-  text-shadow: 2px 0px 13px rgba(150, 150, 150, 1);
-  color: black;
-}
-
-#name{
-  font-size: 100px;
-}
-
-#proff{
-  font-size: 50px;
-}
-
-#img-usr{
-  border-radius: 50%;
-  width: 40%;
-}
-
-.center_img{
-  text-align: center;
-}
-
-.info-class{
-  margin: 60px 0px 40px 0px;
-}
-
-.info-class p{
-  font-size: 20px;
-  text-align: justify;
-}
-
-.info-class a{
-  text-align: center;
-  border-radius: 50%;
-  display: inline-block;
-  font-weight: bold;
-  height: 50px;
-  width: 50px;
-  line-height: 50px;
-  margin: 15px;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  transition: all .3s;
-}
-
-#fcbk{
-  font-size: 25px;
-  background-color: #3b5998;
   color: white;
-}
-
-#fcbk:hover {
-  background-color: rgba(175, 189, 212, 0.8);
 }
 
 #github{
@@ -94,75 +102,73 @@
   background-color: rgba(88, 88, 88, 0.8);
 }
 
-.skills{
-  background-color: #F2F2F2;
-  padding-bottom: 40px;
+@media (min-width: 320px) {
+
+  #text-home{
+    padding-top: 20%;   
+  }
+
+  #name{
+    font-size: 35px;
+  }
+
+  #proff{
+    font-size: 30px;
+  }
+
 }
 
-.skills h1{
-  margin-bottom: 30px;
+@media (min-width: 480px) {
+  #name{
+    font-size: 45px;
+  }
+
+  #proff{
+    font-size: 35px;
+  }
+
+  #img-usr{
+    margin-top: 25%;
+    width: 70%;
+  }
 }
 
-.skills p, .portfolio p{
-  font-size: 15px;
+@media (min-width: 768px) {
+
+  #text-home{
+    padding-top: 20%;   
+  }
+
+  #name{
+    font-size: 65px;
+  }
+
+  #proff{
+    font-size: 45px;
+  }
+
+  #img-usr{
+    width: 60%;
+    margin-top: 10%;
+  }
 }
 
-.portfolio{
-  /*background-color: #2E2EFE;*/
-  background-color: #0B0B61;
-  color: white;
-  padding-bottom: 40px;
-}
+@media (min-width: 960px) {
 
-.portfolio h1{
-  padding-bottom: 30px;
-}
+  #text-home{
+    padding-top: 10%;   
+  }
 
-.contact_me{
-  background-color: #0B0B3B;
-  color: white;
-  padding-bottom: 40px;
-  text-shadow: 2px 0px 13px rgba(150, 150, 150, 1);
-}
+  #name{
+    font-size: 75px;
+  }
 
-.contact_me p{
-  font-size: 16px;
-}
+  #proff{
+    font-size: 55px;
+  }
 
-.contact_me .glyphicon{
-  font-size: 30px;
+  #img-usr{
+    width: 40%;
+    margin-top: 5%;
+  }
 }
-
-#gly-warning{
-  font-size: -webkit-xxx-large;
-  color: orange;
-}
-
-/* Progress-bar */
-.container_skill {
-    background-color: #ddd; /* Grey background */
-    padding: 0px;
-    border-radius: 5px;
-}
-
-#delete-padding{
-  padding: 0px;
-}
-
-.skill {
-    text-align: right; /* Right-align text */
-    padding-right: 20px; /* Add some right padding */
-    line-height: 20px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
-    color: white; /* White text color */
-    border-radius: 5px;
-}
-
-#ruby_rails {width: 50%; background-color: #4CAF50;} /* Green */
-#html5 {width: 70%; background-color: #4CAF50;} /* Green */
-#css3 {width: 70%; background-color: #4CAF50;} /* Green */
-#bootstrap {width: 80%; background-color: #4CAF50;} /* Green */
-#javascript {width: 60%; background-color: #4CAF50;} /* Green */
-#jquery_ajax {width: 60%; background-color: #4CAF50;} /* Green */
-#git_github {width: 60%; background-color: #4CAF50;} /* Green */
-#php {width: 80%; background-color: #4CAF50;} /* Green */
-#sql {width: 70%; background-color: #4CAF50;} /* Green */
