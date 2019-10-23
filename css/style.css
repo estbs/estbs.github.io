@@ -115,11 +115,11 @@
   }
 
   #name{
-    font-size: 35px;
+    font-size: 30px;
   }
 
   #proff{
-    font-size: 30px;
+    font-size: 25px;
   }
 
 }
@@ -147,10 +147,12 @@
 
   #name{
     font-size: 65px;
+    -webkit-text-stroke: 2px black;
   }
 
   #proff{
     font-size: 45px;
+    -webkit-text-stroke: 2px black;
   }
 
   #img-usr{
