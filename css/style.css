@@ -86,7 +86,15 @@
   background-color: #F2F2F2;
 }
 
-.contact_me{
+.card_custom {
+  margin: 1%;
+}
+
+#experience {
+  background-color: #BCC9D4;
+}
+
+.contact_me {
   background: url(../imgs/bg1.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -179,4 +187,5 @@
     width: 40%;
     margin-top: 5%;
   }
+
 }
