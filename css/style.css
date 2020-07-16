@@ -122,7 +122,7 @@
   background-color: rgba(88, 88, 88, 0.8);
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
 
   #text-home{
     padding-top: 20%;   
@@ -142,7 +142,7 @@
 
 }
 
-@media (max-width: 480px) {
+@media (min-width: 480px) {
   #name{
     font-size: 45px;
   }
@@ -154,10 +154,6 @@
   #img-usr{
     margin-top: 25%;
     width: 70%;
-  }
-
-  .img-icon {
-    width: 70px;
   }
 
 }
