@@ -94,6 +94,7 @@
 
 .card_custom {
   margin: 1%;
+  box-shadow: 5px 5px 0px #1b1c1b, -10px 15px 35px #2d302f;
 }
 
 #experience {
